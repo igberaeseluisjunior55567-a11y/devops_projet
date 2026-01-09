@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Formulaire – Page 2</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+.form {
+    background: white;
+    width: 450px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn {
+    background: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+</style>
+
+</head>
+<body>
+
+<form class="form">
+    <h2>Contact & situation</h2>
+
+    <label>Email</label>
+    <input type="email">
+
+    <label>Téléphone</label>
+    <input type="tel">
+
+    <label>Adresse</label>
+    <input type="text">
+
+    <label>Ville</label>
+    <input type="text">
+
+    <label>Pays</label>
+    <input type="text">
+
+    <label>État civil</label>
+    <select>
+        <option>Célibataire</option>
+        <option>Marié(e)</option>
+        <option>Divorcé(e)</option>
+    </select>
+
+    <label>Profession</label>
+    <input type="text">
+
+    <div class="buttons">
+        <a href="index.html" class="btn">Précédent</a>
+        <a href="page3.html" class="btn">Suivant</a>
+    </div>
+</form>
+
+</body>
+</html>
