@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Formulaire – Page 1</title>
+<title>PHASE1</title>
 
 <style>
 * {
@@ -14,7 +14,6 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -30,17 +29,6 @@ body {
     border-radius: 12px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
     animation: slideIn 0.5s ease-out;
-}
-
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 h2 {
@@ -70,12 +58,6 @@ input, select {
     font-family: inherit;
 }
 
-input:focus, select:focus {
-    outline: none;
-    border-color: #667eea;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-}
-
 .btn {
     display: block;
     margin-top: 30px;
@@ -92,17 +74,8 @@ input:focus, select:focus {
     font-size: 16px;
 }
 
-.btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
-}
-
-.btn:active {
-    transform: translateY(0);
-}
 </style>
 
-</head>
 <body>
 
 <form class="form">
@@ -125,7 +98,6 @@ input:focus, select:focus {
         <option value="">Sélectionner...</option>
         <option>Homme</option>
         <option>Femme</option>
-        <option>Autre</option>
     </select>
 
     <label>Nationalité</label>
