@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Études & Compétences</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+        .form {
+            background: white;
+            width: 450px;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .btn {
+            background: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            text-decoration: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<form class="form" method="post" action="#">
+    <h2>Études & compétences</h2>
+
+    <label for="niveau">Niveau d’étude</label>
+    <select id="niveau" name="niveau">
+        <option>Lycée</option>
+        <option>Bac</option>
+        <option>Licence</option>
+        <option>Master</option>
+    </select>
+
+    <label for="etablissement">Établissement</label>
+    <input type="text" id="etablissement" name="etablissement">
+
+    <label for="langues">Langues parlées</label>
+    <input type="text" id="langues" name="langues" placeholder="Français, Anglais...">
+
+    <label for="competences">Compétences</label>
+    <textarea id="competences" name="competences" rows="3"></textarea>
+
+    <label for="remarques">Remarques</label>
+    <textarea id="remarques" name="remarques" rows="3"></textarea>
+
+    <div class="buttons">
+        <a href="page2.html" class="btn">Précédent</a>
+        <button type="submit" class="btn">Envoyer</button>
+    </div>
+</form>
+
+</body>
+</html>
